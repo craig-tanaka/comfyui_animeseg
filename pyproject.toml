@@ -1,0 +1,15 @@
+[project]
+name = "animeseg"
+description = "This is a set of custom nodes for ComfyUI that provide anime-style image segmentation using efficient pre-trained models."
+version = "1.0.0"
+license = {file = "LICENSE"}
+dependencies = ["torch", "torchvision", "onnxruntime", "pillow", "numpy"]
+
+[project.urls]
+Repository = "https://github.com/craig-tanaka/comfyui_animeseg"
+#  Used by Comfy Registry https://comfyregistry.org
+
+[tool.comfy]
+PublisherId = ""
+DisplayName = "comfyui_animeseg"
+Icon = ""
